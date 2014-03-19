@@ -1,0 +1,1 @@
+C:\Users\edurodolfoga\Documents\Visual Studio 2012\Projects\MediaLibraryForms\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache

@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaLibraryForms", "MediaLibraryForms\MediaLibraryForms.csproj", "{D0103D1B-2DD5-44B2-8B04-3B344F72A8AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentationLayer", "PresentationLayer\PresentationLayer.csproj", "{2C556A3E-C233-4606-80C4-A5CF0701D1A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{8683236B-C526-4B32-949D-CCDB1B94D559}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainLayer", "DomainLayer\DomainLayer.csproj", "{627A36F7-1979-421A-991D-AACEF88D73B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "UnitTestProject1\TestProject.csproj", "{518847E3-C6F7-423B-969E-7868C532A10D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0103D1B-2DD5-44B2-8B04-3B344F72A8AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0103D1B-2DD5-44B2-8B04-3B344F72A8AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0103D1B-2DD5-44B2-8B04-3B344F72A8AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0103D1B-2DD5-44B2-8B04-3B344F72A8AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C556A3E-C233-4606-80C4-A5CF0701D1A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C556A3E-C233-4606-80C4-A5CF0701D1A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C556A3E-C233-4606-80C4-A5CF0701D1A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C556A3E-C233-4606-80C4-A5CF0701D1A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8683236B-C526-4B32-949D-CCDB1B94D559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8683236B-C526-4B32-949D-CCDB1B94D559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8683236B-C526-4B32-949D-CCDB1B94D559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8683236B-C526-4B32-949D-CCDB1B94D559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{627A36F7-1979-421A-991D-AACEF88D73B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{627A36F7-1979-421A-991D-AACEF88D73B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{627A36F7-1979-421A-991D-AACEF88D73B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{627A36F7-1979-421A-991D-AACEF88D73B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{518847E3-C6F7-423B-969E-7868C532A10D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{518847E3-C6F7-423B-969E-7868C532A10D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{518847E3-C6F7-423B-969E-7868C532A10D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{518847E3-C6F7-423B-969E-7868C532A10D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35;packages\Unity.Interception.2.1.505.2\lib\NET35;packages\EnterpriseLibrary.Common.5.0.505.0\lib\NET35;packages\TransientFaultHandling.Core.5.1.1209.1\lib\NET4;packages\EnterpriseLibrary.WindowsAzure.TransientFaultHandling.5.1.1212.0\lib\NET4;packages\EnterpriseLibrary.WindowsAzure.TransientFaultHandling.5.1.1212.0\DesignTime
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal
