@@ -1,0 +1,1 @@
+c:\users\edurodolfoga\documents\visual studio 2012\Projects\TestApplicationWinForms\TestApplicationWinForms\bin\Debug\TestApplicationWinForms.exe.config
