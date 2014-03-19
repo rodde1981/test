@@ -18,6 +18,7 @@ namespace TestApplicationWinForms
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
             string s = "Ändrat strängen";
+            String q = "Ny egenskap"
         }
     }
 }
