@@ -1,0 +1,11 @@
+c:\users\edurodolfoga\documents\visual studio 2012\Projects\MediaLibraryForms\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+c:\users\edurodolfoga\documents\visual studio 2012\Projects\MediaLibraryForms\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+c:\users\edurodolfoga\documents\visual studio 2012\Projects\MediaLibraryForms\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+c:\users\edurodolfoga\documents\visual studio 2012\Projects\MediaLibraryForms\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+c:\users\edurodolfoga\documents\visual studio 2012\Projects\MediaLibraryForms\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+c:\users\edurodolfoga\documents\visual studio 2012\Projects\MediaLibraryForms\DataAccessLayer\bin\Debug\DomainLayer.dll
+c:\users\edurodolfoga\documents\visual studio 2012\Projects\MediaLibraryForms\DataAccessLayer\bin\Debug\DomainLayer.pdb
+C:\Users\edurodolfoga\Documents\Visual Studio 2012\Projects\MediaLibraryForms\DataAccessLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\edurodolfoga\Documents\Visual Studio 2012\Projects\MediaLibraryForms\DataAccessLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\edurodolfoga\Documents\Visual Studio 2012\Projects\MediaLibraryForms\DataAccessLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\edurodolfoga\Documents\Visual Studio 2012\Projects\MediaLibraryForms\DataAccessLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml

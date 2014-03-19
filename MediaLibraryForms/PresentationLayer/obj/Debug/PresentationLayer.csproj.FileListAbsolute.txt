@@ -1,0 +1,13 @@
+c:\users\edurodolfoga\documents\visual studio 2012\Projects\MediaLibraryForms\PresentationLayer\bin\Debug\PresentationLayer.dll
+c:\users\edurodolfoga\documents\visual studio 2012\Projects\MediaLibraryForms\PresentationLayer\bin\Debug\PresentationLayer.pdb
+c:\users\edurodolfoga\documents\visual studio 2012\Projects\MediaLibraryForms\PresentationLayer\obj\Debug\PresentationLayer.csprojResolveAssemblyReference.cache
+c:\users\edurodolfoga\documents\visual studio 2012\Projects\MediaLibraryForms\PresentationLayer\obj\Debug\PresentationLayer.dll
+c:\users\edurodolfoga\documents\visual studio 2012\Projects\MediaLibraryForms\PresentationLayer\obj\Debug\PresentationLayer.pdb
+c:\users\edurodolfoga\documents\visual studio 2012\Projects\MediaLibraryForms\PresentationLayer\bin\Debug\DomainLayer.dll
+c:\users\edurodolfoga\documents\visual studio 2012\Projects\MediaLibraryForms\PresentationLayer\bin\Debug\DomainLayer.pdb
+c:\users\edurodolfoga\documents\visual studio 2012\Projects\MediaLibraryForms\PresentationLayer\bin\Debug\DataAccessLayer.dll
+c:\users\edurodolfoga\documents\visual studio 2012\Projects\MediaLibraryForms\PresentationLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\edurodolfoga\Documents\Visual Studio 2012\Projects\MediaLibraryForms\PresentationLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\edurodolfoga\Documents\Visual Studio 2012\Projects\MediaLibraryForms\PresentationLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\edurodolfoga\Documents\Visual Studio 2012\Projects\MediaLibraryForms\PresentationLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\edurodolfoga\Documents\Visual Studio 2012\Projects\MediaLibraryForms\PresentationLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
