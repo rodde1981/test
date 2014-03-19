@@ -47,7 +47,7 @@ namespace DataAccessLayer
             return movie;
         }
 
-        public override Movie GetDataFromReader(System.Data.IDataReader id)
+        protected override Movie GetDataFromReader(System.Data.IDataReader id)
         {
             return new Movie(id["Title"] as string, (int)id["AgeLimit"], MediaFormat.BlueRay, (DateTime)id["Year"] );
         }

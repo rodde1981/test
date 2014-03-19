@@ -21,7 +21,7 @@ namespace DataAccessLayer
             database = new SqlDatabase(ConfigurationManager.ConnectionStrings["DB"].ConnectionString);
         }
 
-        public abstract T GetDataFromReader(IDataReader id);
+        protected abstract T GetDataFromReader(IDataReader id);
 
     }
 }

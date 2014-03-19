@@ -21,7 +21,7 @@ namespace UnitTestProject1.PresentationLayerTest
         {
             List<MediaItem> medias2Save;
             var saveMedia = new Mock<IGameDal>(MockBehavior.Strict);
-            Game game = new Game("Halo", 15, MediaFormat.BlueRay, GameSystemEnum.Xbox);
+            Game game = new Game("Halo", 15, MediaFormat.BlueRay, GameSystemEnum.Xbox, new DateTime(2003,01,01));
 
             saveMedia.Setup(x => x.Save(It.IsAny<Game>())).Returns(game);
 

@@ -13,10 +13,11 @@ namespace UnitTestProject1.PresentationLayerTest
     [TestClass]
     public class BasePresenterTest
     {
+        private readonly List<Movie> returnMovies = new List<Movie>();
         private Mock<IGameDal> _gameDal;
-        private Mock<IMovieDal> _movieDal;
         private Mock<IView> _iView;
-        private List<Movie> returnMovies = new List<Movie>();
+        private Mock<IMovieDal> _movieDal;
+
         [TestInitialize]
         public void InitiaLizeTest()
         {
@@ -24,9 +25,9 @@ namespace UnitTestProject1.PresentationLayerTest
             _movieDal = new Mock<IMovieDal>(MockBehavior.Strict);
             _iView = new Mock<IView>(MockBehavior.Strict);
 
-            returnMovies.Add(new Movie("Gladiator",15, MediaFormat.BlueRay, new DateTime(1999,01,01)));
+            returnMovies.Add(new Movie("Gladiator", 15, MediaFormat.BlueRay, new DateTime(1999, 01, 01)));
 
-            Movie movie = new Movie("Gladiator", 15, MediaFormat.BlueRay, new DateTime(1999, 01, 01));
+            var movie = new Movie("Gladiator", 15, MediaFormat.BlueRay, new DateTime(1999, 01, 01));
 
             // _movieDal.Setup(x => x.GetByTitle()).Returns(movie);
         }
@@ -35,7 +36,7 @@ namespace UnitTestProject1.PresentationLayerTest
         public void RaiseGetMovie()
         {
             //act
-            
+
             //Arrange
             _movieDal.Setup(x => x.GetByTitle("Gladiator")).Returns(returnMovies);
             _iView.Setup(x => x.GetSearchTitle).Returns("Gladiator");
@@ -43,14 +44,14 @@ namespace UnitTestProject1.PresentationLayerTest
             //_iView.Setup(x => x.DisplayMovie(It.IsAny<Movie>()));
 
             //Action
-            BasePresenter basePresenter = new BasePresenter(_iView.Object, _gameDal.Object, _movieDal.Object);
+            var basePresenter = BasePresenter();
             _iView.Raise(x => x.SearchMovie += null, new EventArgs());
             _iView.VerifyAll();
-
-
         }
 
-
-
+        private BasePresenter BasePresenter()
+        {
+            return new BasePresenter(_iView.Object, _gameDal.Object, _movieDal.Object);
+        }
     }
 }

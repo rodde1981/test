@@ -24,7 +24,7 @@ namespace UnitTestProject1.DataAcessLayer
             _movieDal = new MovieDal();
             _gameDal = new GameDal();
             _movie = new Movie("TestRulle1", 15, MediaFormat.BlueRay, new DateTime(2001,01,01));
-            _game = new Game("Halo", 15, MediaFormat.Dvd, GameSystemEnum.Xbox);
+            _game = new Game("Halo", 15, MediaFormat.Dvd, GameSystemEnum.Xbox, new DateTime(2001, 01, 01));
         }
 
         [TestMethod, Description("Test Database Movies CRUD Ops")]
@@ -41,7 +41,7 @@ namespace UnitTestProject1.DataAcessLayer
         public void TestGames()
         {
             var insertedGame = InsertGameIntoDatabase(_game);
-            SearchMovieDatabase(_game.Title);
+            SearchGameDatabase(_game.Title);
             RemoveGameFromDatabase(_game);
         }
 

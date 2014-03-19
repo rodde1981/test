@@ -13,7 +13,6 @@ namespace DataAccessLayer.Interface
         List<T> GetAll();
         List<T> GetByTitle(string title);
         T GetById(int i);
-        T GetDataFromReader(IDataReader id);
 
     }
 }
