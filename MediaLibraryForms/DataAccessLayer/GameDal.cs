@@ -37,7 +37,17 @@ namespace DataAccessLayer
         }
 
 
-        public Game UpdateMovie(Game m)
+        public Game Update(Game m)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Remove(Movie m)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Remove(Game m)
         {
             throw new NotImplementedException();
         }

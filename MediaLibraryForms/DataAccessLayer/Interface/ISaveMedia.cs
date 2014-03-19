@@ -9,7 +9,7 @@ namespace DataAccessLayer
     public interface ISaveMedia<T> where T:  MediaItem
     {
         T Save(T g);
-        T UpdateMovie(T m);
+        T Update(T m);
     }
 
    

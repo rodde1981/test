@@ -77,7 +77,7 @@ namespace DataAccessLayer
         }
 
 
-        public Movie UpdateMovie(Movie m)
+        public Movie Update(Movie m)
         {
             throw new NotImplementedException();
         }

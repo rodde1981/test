@@ -7,7 +7,7 @@ using DomainLayer;
 
 namespace DataAccessLayer.Interface
 {
-    public interface IGameDal: IFetchMedia<Game>,ISaveMedia<Game>
+    public interface IGameDal: IFetchMedia<Game>,ISaveMedia<Game>, IRemoveDal<Game>
     {
     }
 
